@@ -29,7 +29,7 @@ app.use(cors());
 app.use(express.json());
 
 // Combine both question batches into a single pool
-const questionsPool = [
+const questionsPool = 
   // Batch 1
   { id: 1, text: "What is Monad's classification in the blockchain landscape?", options: {A: "Layer 2 (L2) Optimistic Rollup", B: "Proof-of-Authority Sidechain", C: "High-performance Layer 1 (L1) blockchain", D: "Decentralized Storage Network"}, correct: "C", difficulty: "Easy" },
   { id: 2, text: "What is Monad's primary target throughput metric in Transactions Per Second (TPS)?", options: {A: "1,000 TPS", B: "5,000 TPS", C: "10,000 TPS", D: "25,000 TPS"}, correct: "C", difficulty: "Easy" },
